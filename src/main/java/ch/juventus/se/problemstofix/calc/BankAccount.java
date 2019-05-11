@@ -1,9 +1,5 @@
 package ch.juventus.se.problemstofix.calc;
 
-/**
- * @author: Linda Krüger
- * @since: 21.09.17
- */
 public class BankAccount {
 
     private double balance;

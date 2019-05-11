@@ -5,10 +5,6 @@ import java.util.Date;
 import java.util.Iterator;
 import java.util.List;
 
-/**
- * @author: Linda Krüger
- * @since: 28.09.17
- */
 public class PersonController {
 
     public List<Person> removeAllLindas (List<Person> people) {

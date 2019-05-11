@@ -1,9 +1,5 @@
 package ch.juventus.se.problemstofix.bird;
 
-/**
- * @author: Linda Krüger
- * @since: 21.09.17
- */
 public class Turkey extends Bird {
 
     private String color;

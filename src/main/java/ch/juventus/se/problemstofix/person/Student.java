@@ -2,10 +2,6 @@ package ch.juventus.se.problemstofix.person;
 
 import java.util.Date;
 
-/**
- * @author: Linda Krüger
- * @since: 21.09.17
- */
 public class Student {
 
     private String firstName;

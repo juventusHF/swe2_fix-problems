@@ -1,9 +1,5 @@
 package ch.juventus.se.problemstofix.person;
 
-/**
- * @author: Linda Krüger
- * @since: 12.09.17
- */
 public class Address {
 
     private String street;
