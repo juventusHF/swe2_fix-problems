@@ -25,12 +25,7 @@ public class PersonController {
         cal.add(Calendar.YEAR, -18);
         Date referenceDate = cal.getTime();
 
-        for(Person person : people) {
-            if(person.getBirthday().after(referenceDate)) {
-                people.remove(person);
-            }
-        }
-
+        people.removeIf(p -> p.getBirthday().after(referenceDate));
         return people;
     }
 

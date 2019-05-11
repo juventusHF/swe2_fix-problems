@@ -88,7 +88,7 @@ public class PersonTest {
         people.add(new Person(null, null, new Date(238460400000l), null, null, null, null));
         people.add(new Person(null, null, new Date(1248300000000l), null, null, null, null));
 
-        assertEquals(4, personController.removeAllUnderage(people).size(), "Size of returned list is not as expected");
+        assertEquals(5, personController.removeAllUnderage(people).size(), "Size of returned list is not as expected");
     }
 
     @Test
