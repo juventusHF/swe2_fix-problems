@@ -7,7 +7,7 @@ public class Pigeon extends Bird {
     public Pigeon(int age, double weight, boolean isHealthy) {
         super(age);
         this.setWeight(weight);
-        this.setHeathy(isHealthy);
+        this.setHealthy(isHealthy);
     }
 
     public String getName() {

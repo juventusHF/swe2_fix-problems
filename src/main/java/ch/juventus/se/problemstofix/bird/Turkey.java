@@ -7,7 +7,7 @@ public class Turkey extends Bird {
     public Turkey(int age, double weight, boolean isHealthy) {
         super(age);
         this.setWeight(weight);
-        this.setHeathy(isHealthy);
+        this.setHealthy(isHealthy);
     }
 
     public String getColor() {

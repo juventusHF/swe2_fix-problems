@@ -7,7 +7,7 @@ public class Toucan extends Bird {
     public Toucan(int age, double weight, boolean isHealthy) {
         super(age);
         this.setWeight(weight);
-        this.setHeathy(isHealthy);
+        this.setHealthy(isHealthy);
     }
 
     public String getHabitat() {

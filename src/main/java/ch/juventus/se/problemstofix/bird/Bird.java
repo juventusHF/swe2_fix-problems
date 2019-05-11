@@ -1,14 +1,10 @@
 package ch.juventus.se.problemstofix.bird;
 
-/**
- * @author: Linda Krüger
- * @since: 21.09.17
- */
 public abstract class Bird {
 
     private int age;
     private double weight;
-    private boolean isHeathy;
+    private boolean isHealthy;
     private int id;
 
     public Bird(int id) {
@@ -31,12 +27,12 @@ public abstract class Bird {
         this.weight = weight;
     }
 
-    public boolean isHeathy() {
-        return isHeathy;
+    public boolean isHealthy() {
+        return isHealthy;
     }
 
-    public void setHeathy(boolean heathy) {
-        isHeathy = heathy;
+    public void setHealthy(boolean healthy) {
+        isHealthy = healthy;
     }
 
     public int getId() {
@@ -56,7 +52,7 @@ public abstract class Bird {
 
         if (age != bird.age) return false;
         if (Double.compare(bird.weight, weight) != 0) return false;
-        if (isHeathy != bird.isHeathy) return false;
+        if (isHealthy != bird.isHealthy) return false;
         return id == bird.id;
     }
 
@@ -67,7 +63,7 @@ public abstract class Bird {
         result = age;
         temp = Double.doubleToLongBits(weight);
         result = 31 * result + (int) (temp ^ (temp >>> 32));
-        result = 31 * result + (isHeathy ? 1 : 0);
+        result = 31 * result + (isHealthy ? 1 : 0);
         result = 31 * result + id;
         return result;
     }
