@@ -1,6 +1,7 @@
 package ch.juventus.se.problemstofix.person;
 
 import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import java.text.ParseException;
@@ -20,7 +21,7 @@ public class PersonTest {
     private PersonMapper personMapper;
     private SimpleDateFormat dateFormat;
 
-    @BeforeAll
+    @BeforeEach
     public void setup () {
 
         personController = new PersonController();
