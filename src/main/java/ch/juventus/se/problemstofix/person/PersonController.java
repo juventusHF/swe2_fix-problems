@@ -11,7 +11,7 @@ public class PersonController {
         Iterator<Person> iterator = people.iterator();
         while (iterator.hasNext()) {
             Person person = iterator.next();
-            if(person.getFirstName().equals("Lina")) {
+            if(person.getFirstName().equals("Linda")) {
                 iterator.remove();
             }
         }
@@ -33,7 +33,7 @@ public class PersonController {
 
         Iterator<Person> iterator = people.iterator();
         while (iterator.hasNext()) {
-            if(iterator.next().getLastName().toLowerCase().startsWith("a")) {
+            if(iterator.next().getLastName().toLowerCase().contains("a")) {
                 iterator.remove();
             }
         }
